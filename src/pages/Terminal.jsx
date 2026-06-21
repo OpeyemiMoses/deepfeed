@@ -79,7 +79,7 @@ const handlePairChange = (p) => {
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, minWidth: 0, flex: 1, overflow: 'hidden' }}>
   <button className="mobile-hide" onClick={onHome} style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
             <div style={{ width: 26, height: 26, borderRadius: 6, background: 'linear-gradient(135deg, #2563EB, #1D4ED8)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <img src="public/deepfeed.png" alt="logo" style={{ width: "24px", height: "24px", objectFit: "contain" }} />
+              <img src="images/deepfeed.png" alt="logo" style={{ width: "24px", height: "24px", objectFit: "contain" }} />
             </div>
             <span className="mono" style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>DeepFeed</span>
           </button>
