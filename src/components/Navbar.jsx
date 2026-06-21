@@ -18,7 +18,7 @@ export default function Navbar({ onLaunchApp, onHome }) {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             boxShadow: '0 0 12px #2563EB55'
           }}>
-            <Zap size={16} color="#fff" fill="#fff" />
+            <img src="public/deepfeed.png" alt="logo" style={{ width: "24px", height: "24px", objectFit: "contain" }} />
           </div>
           <span className="mono" style={{ fontSize: 18, fontWeight: 700, color: '#F1F5F9', letterSpacing: '-0.02em' }}>
             DeepFeed
