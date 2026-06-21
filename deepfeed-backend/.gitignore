@@ -1,0 +1,5 @@
+node_modules
+.env
+.execution-wallet-key
+*.local
+.DS_Store
