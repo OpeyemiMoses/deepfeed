@@ -1,4 +1,4 @@
-const DEFAULT_BACKEND_URL = 'http://localhost:4000'
+const DEFAULT_BACKEND_URL = 'https://deepfeed.onrender.com'
 
 export function getBackendUrl() {
   return (import.meta.env.VITE_DEEPFEED_BACKEND_URL || DEFAULT_BACKEND_URL).replace(/\/$/, '')
